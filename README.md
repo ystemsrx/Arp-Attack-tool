@@ -14,6 +14,7 @@ Welcome to the ARP Attack Tool, a mischievous tool designed to let you explore t
 - [Installation](#installation)
 - [Usage](#usage)
 - [Disclaimer](#disclaimer)
+- [License](#License)
 
 ## Overview
 
@@ -81,8 +82,8 @@ For Linux user, please ensure you have root access to your network interface to 
 
 This script is provided for educational purposes only. It is meant to demonstrate the vulnerabilities in network protocols and emphasize the importance of network security. Use it responsibly and only on networks where you have explicit permission. Unauthorized use of this script on networks that do not belong to you or without permission is illegal and unethical.
 
-### License
+Have fun, learn a lot, and remember to use your powers for good!
+
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-Have fun, learn a lot, and remember to use your powers for good!
