@@ -1,3 +1,5 @@
+[中文](README.zh.md)
+
 # ARP Attack Tool
 
 Welcome to the ARP Attack Tool, a mischievous tool designed to let you explore the vulnerabilities of network protocols. Whether you want to play harmless pranks or understand the importance of network security, this script is your playful partner in crime (for educational purposes only, of course!).
