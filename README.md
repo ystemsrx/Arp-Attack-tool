@@ -34,7 +34,7 @@ To run this script, you will need:
   - `python-nmap`
 
 - nmap
-  Goto [nmap download link](https://nmap.org/download.html) to download the nmap version that suits your system.
+  - Goto [nmap download link](https://nmap.org/download.html) to download the nmap version that suits your system.
 
 Ensure you have administrative or root access to your network interface to execute this script.
 
