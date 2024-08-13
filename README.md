@@ -29,10 +29,11 @@ To run this script, you will need:
 - Python 3.x
 - The following Python packages:
   - `scapy`
-  - `nmap`
   - `netifaces`
   - `requests`
 
+- nmap
+- Goto [nmap download link](https://nmap.org/download.html) to download the nmap version that suits your system.
 Ensure you have administrative or root access to your network interface to execute this script.
 
 ## Installation
