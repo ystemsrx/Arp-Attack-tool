@@ -16,6 +16,7 @@ Welcome to the ARP Attack Tool, a mischievous tool designed to let you explore t
 ## Overview
 
 The script is a program that performs ARP (Address Resolution Protocol) spoofing on a network. It is intended to illustrate how network attacks can occur and to emphasize the need for robust security measures. The script allows you to temporarily disrupt a device's network connection, perfect for stopping those pesky free-loaders on your Wi-Fi or pranking your loud relatives during their gaming sessions.
+There is also a PyQt5 based GUI version available.
 
 ## Features
 
@@ -34,6 +35,7 @@ To run this script, you will need:
   - `netifaces`
   - `requests`
   - `python-nmap`
+  - `PyQt5`(Optional)
 
 - nmap
   - Goto [nmap download link](https://nmap.org/download.html) to download the nmap version that suits your system.
@@ -52,6 +54,7 @@ For Linux user, please ensure you have root access to your network interface to 
    ```bash
    pip install -r requirements.txt
    ```
+   To run the GUI version, run `pip install PyQt5` in your terminal.
 
 ## Usage
 
@@ -59,13 +62,17 @@ For Linux user, please ensure you have root access to your network interface to 
    ```bash
    sudo python Arp_Attack.py
    ```
+   or
+   ```bash
+   sudo Arp_Attack_GUI.py.py
+   ```
 
-2. **Follow the prompts:**
+3. **Follow the prompts:**
    - The script will scan your network and display a list of online devices.
    - Enter the indices of the devices you wish to target (e.g., `0 2 4`).
    - Specify the number of packets per second you want to send.
 
-3. **Watch the chaos unfold:**
+4. **Watch the chaos unfold:**
    - The script will start sending ARP packets to the targeted devices, potentially disrupting their network connections.
 
 ## Disclaimer
