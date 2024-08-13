@@ -1,4 +1,5 @@
 [中文](README.zh.md)
+[Click here for beginners](docs/README_GUI.en.md)
 
 # ARP Attack Tool
 
