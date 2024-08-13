@@ -64,7 +64,7 @@ For Linux user, please ensure you have root access to your network interface to 
    ```
    or
    ```bash
-   sudo Arp_Attack_GUI.py.py
+   sudo Arp_Attack_GUI.py
    ```
 
 3. **Follow the prompts:**
