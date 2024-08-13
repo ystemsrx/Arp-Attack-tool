@@ -31,6 +31,7 @@ To run this script, you will need:
   - `scapy`
   - `netifaces`
   - `requests`
+  - `python-nmap`
 
 - nmap
 - Goto [nmap download link](https://nmap.org/download.html) to download the nmap version that suits your system.
