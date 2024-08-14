@@ -12,9 +12,8 @@ This project is a Python-based GUI tool designed for network scanning and execut
 
 - **Network Scanning**: The tool can scan the local network to identify devices, displaying their IP, MAC address, and manufacturer information.
 - **ARP Spoofing**: Users can select targets from the scanned devices list and initiate an ARP spoofing attack, sending fake ARP packets to redirect traffic.
-- **Language Support**: The interface supports English and Simplified Chinese, allowing users to switch between the two languages.
+- **Language Support**: The interface supports English and Simplified Chinese[(v2.1)](Arp_Attack_GUI.py), allowing users to switch between the two languages.
 - **Always on Top**: An option to keep the window always on top of other windows.
-- **Responsive UI**: The interface dynamically adjusts based on the number of scanned devices, ensuring an optimal viewing experience.
 
 ## Requirements
 
