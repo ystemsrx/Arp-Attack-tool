@@ -21,7 +21,7 @@ from PyQt5.QtWidgets import (
     QSpacerItem,
     QSizePolicy
 )
-from PyQt5.QtCore import Qt, QThread, pyqtSignal, QPropertyAnimation, QSize, QEasingCurve
+from PyQt5.QtCore import Qt, QThread, pyqtSignal, QPropertyAnimation, QSize, QEasingCurve, QTimer
 import socket
 import ipaddress
 import netifaces
@@ -361,10 +361,18 @@ class NetworkToolGUI(QWidget):
 
     def cancel_attack(self):
         self.stop_attack_event.set()  # Signal all threads to stop
-        for thread in self.attack_threads:
-            if thread.is_alive():
-                thread.join()  # Wait for thread to stop
         self.attack_dialog.close()
+        QTimer.singleShot(100, self.check_threads_status)  # 在100ms后检查线程状态
+    
+    def check_threads_status(self):
+        all_threads_stopped = all(not thread.is_alive() for thread in self.attack_threads)
+        
+        if all_threads_stopped:
+            # 如果所有线程都已停止
+            self.attack_dialog.close()
+        else:
+            # 如果还有线程在运行，继续检查
+            QTimer.singleShot(100, self.check_threads_status)
 
     def closeEvent(self, event):
         """Ensure all threads are terminated when the window is closed."""
