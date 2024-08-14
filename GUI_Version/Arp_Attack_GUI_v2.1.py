@@ -70,6 +70,7 @@ class NetworkToolGUI(QWidget):
         self.stop_attack_event = threading.Event()
         self.animation = None  # 初始化动画对象
         self.is_scanning = False  # 增加一个标志来判断是否处于扫描状态
+        self.attack_dialog = None  # 初始化 attack_dialog 属性
 
     def initUI(self):
         self.setWindowTitle("Network Tool")
@@ -367,7 +368,8 @@ class NetworkToolGUI(QWidget):
 
     def closeEvent(self, event):
         """Ensure all threads are terminated when the window is closed."""
-        self.cancel_attack()
+        if self.attack_dialog is not None:
+            self.cancel_attack()
         event.accept()
 
     def adjust_window_size(self):
