@@ -20,7 +20,7 @@ Welcome to the ARP Attack Tool, a mischievous tool designed to let you explore t
 
 The script is a program that performs ARP (Address Resolution Protocol) spoofing on a network. It is intended to illustrate how network attacks can occur and to emphasize the need for robust security measures. The script allows you to temporarily disrupt a device's network connection, perfect for stopping those pesky free-loaders on your Wi-Fi or pranking your loud relatives during their gaming sessions.
 
-There is also a PyQt5 based GUI version available. [Press here.](GUI_Version)
+There is also a PyQt5 based GUI version available. [Click here.](GUI_Version)
 
 ## Features
 
