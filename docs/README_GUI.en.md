@@ -10,7 +10,7 @@ This tool is designed to help you understand network security by demonstrating A
 
 To get started, download the latest version of the ARP Attack GUI Tool from the [Releases](https://github.com/ystemsrx/Arp-Attack-tool/releases) section. Look for the `.exe` file to run the application directly on your Windows machine.
 
-**Important:** This tool requires Nmap to be installed on your system. Please visit [Nmap's official download page](https://nmap.org/download.html) and select the version suitable for your operating system.
+**Important:** This tool requires Nmap[(v1.0)](https://github.com/ystemsrx/Arp-Attack-tool/releases/tag/1.0) to be installed on your system. Please visit [Nmap's official download page](https://nmap.org/download.html) and select the version suitable for your operating system. For users using version 2.0 and above, there is no need to download and install this tool.
 
 ## Usage
 
