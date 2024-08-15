@@ -15,13 +15,15 @@
 ## 使用方法
 
 1. **运行应用程序：** 双击下载的 `.exe` 文件以启动 ARP 攻击 GUI 工具。
+
    ![image](https://github.com/user-attachments/assets/d9b44b49-5524-4374-a406-3e03cdce0d15)
 
-2. **扫描网络：** 点击“Scan Network”按钮查找连接到您本地网络的设备。
-3. **选择目标：** 从列表中选择您想要攻击的设备。
-   ![image](https://github.com/user-attachments/assets/94dd733a-2660-44b2-b28f-7c9583da935e)
+3. **扫描网络：** 点击“Scan Network”按钮查找连接到您本地网络的设备。
+4. **选择目标：** 从列表中选择您想要攻击的设备。
 
-4. **开始攻击：** 输入期望的每秒数据包数量，然后点击“Start ARP Attack”开始操作。
+    ![image](https://github.com/user-attachments/assets/94dd733a-2660-44b2-b28f-7c9583da935e)
+
+6. **开始攻击：** 输入期望的每秒数据包数量，然后点击“Start ARP Attack”开始操作。
 
 ## 免责声明
 
