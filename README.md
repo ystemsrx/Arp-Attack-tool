@@ -50,7 +50,7 @@ For Linux user, please ensure you have root access to your network interface to 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/arp-attack-tool.git
+   git clone https://github.com/ystemsrx/arp-attack-tool.git
    cd arp-attack-script
    ```
 
