@@ -48,6 +48,16 @@ This project is a Python-based GUI tool designed for network scanning and execut
 - **Language Switch**: Toggles between English and Simplified Chinese for the interface.
 - **Always on Top Checkbox**: Keeps the window on top of other applications.
 
+## Troubleshooting
+
+**Issue**: If you encounter the following error message:
+
+`Failed to scan network: Sniffing and sending packets is not available at layer2: winpcap is not installed. You may use conf.L3socket or comg.L3socket6 to access layer 3.`
+
+**Solution**: This error occurs because `WinPcap` is not installed on your system. To resolve this issue, you have to:
+
+**Install Npcap**: Npcap is a modern replacement for WinPcap and is compatible with most applications that require WinPcap. You can download and install Npcap from [Npcap's official website](https://nmap.org/npcap/).
+
 ## Safety Disclaimer
 
 **This tool is intended for educational purposes only.** Unauthorized use of ARP spoofing tools on networks without explicit permission from the network owner is illegal and unethical. Always ensure you have the necessary permissions before conducting any network attacks.
