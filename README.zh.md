@@ -79,6 +79,20 @@ ARP断网工具是一个用于在网络上执行ARP（地址解析协议）欺�
 4. **观察效果：**
    - 脚本将开始向目标设备发送ARP数据包，并会中断它们的网络连接。
 
+以下是中英文的 README 文件更新内容，你可以根据需要直接复制粘贴到你的 README 中。
+
+## 故障排查
+
+**问题**：如果你遇到以下错误信息：
+
+`Failed to scan network: Sniffing and sending packets is not available at layer2: winpcap is not installed. You may use conf.L3socket or comg.L3socket6 to access layer 3.`
+
+**解决方案**：这个错误是因为你的系统中没有安装 `WinPcap`。要解决这个问题，你需要：
+
+1. **安装 Npcap**：`Npcap` 是 `WinPcap` 的现代替代品，兼容大多数需要 `WinPcap` 的应用程序。你可以从 [Npcap 的官方网站](https://nmap.org/npcap/) 下载并安装 `Npcap`。
+
+这样可以帮助用户在遇到这个错误时知道如何进行故障排查并解决问题。
+
 ## 免责声明
 
 此脚本仅用于教育目的。它旨在展示网络协议的漏洞并强调网络安全的重要性。请负责任地使用它，并仅在您拥有明确许可的网络上使用。未经授权在不属于您的网络上或未获得许可的情况下使用此脚本是非法且不道德的行为。
