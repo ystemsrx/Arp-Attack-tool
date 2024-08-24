@@ -79,6 +79,22 @@ For Linux user, please ensure you have root access to your network interface to 
 4. **Watch the chaos unfold:**
    - The script will start sending ARP packets to the targeted devices, potentially disrupting their network connections.
 
+以下是中英文的 README 文件更新内容，你可以根据需要直接复制粘贴到你的 README 中。
+
+### 英文：
+```
+### Troubleshooting
+
+**Issue**: If you encounter the following error message:
+
+```
+Failed to scan network: Sniffing and sending packets is not available at layer2: winpcap is not installed. You may use conf.L3socket or comg.L3socket6 to access layer 3.
+```
+
+**Solution**: This error occurs because `WinPcap` is not installed on your system. To resolve this issue, you have to:
+
+**Install Npcap**: Npcap is a modern replacement for WinPcap and is compatible with most applications that require WinPcap. You can download and install Npcap from [Npcap's official website](https://nmap.org/npcap/).
+
 ## Disclaimer
 
 This script is provided for educational purposes only. It is meant to demonstrate the vulnerabilities in network protocols and emphasize the importance of network security. Use it responsibly and only on networks where you have explicit permission. Unauthorized use of this script on networks that do not belong to you or without permission is illegal and unethical.
