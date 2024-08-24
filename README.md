@@ -79,7 +79,7 @@ For Linux user, please ensure you have root access to your network interface to 
 4. **Watch the chaos unfold:**
    - The script will start sending ARP packets to the targeted devices, potentially disrupting their network connections.
 
-### Troubleshooting
+## Troubleshooting
 
 **Issue**: If you encounter the following error message:
 
