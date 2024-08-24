@@ -23,6 +23,16 @@ To get started, download the latest version of the ARP Attack GUI Tool from the 
 
 4. **Start Attack:** Enter the desired packets per second and click "Start ARP Attack" to begin the operation.
 
+## Troubleshooting
+
+**Issue**: If you encounter the following error message:
+
+`Failed to scan network: Sniffing and sending packets is not available at layer2: winpcap is not installed. You may use conf.L3socket or comg.L3socket6 to access layer 3.`
+
+**Solution**: This error occurs because `WinPcap` is not installed on your system. To resolve this issue, you have to:
+
+**Install Npcap**: Npcap is a modern replacement for WinPcap and is compatible with most applications that require WinPcap. You can download and install Npcap from [Npcap's official website](https://nmap.org/npcap/).
+
 ## Disclaimer
 
 This tool is intended for educational purposes only. It should only be used on networks where you have explicit permission. Unauthorized use on networks that do not belong to you is illegal and unethical. Use responsibly and always prioritize improving network security.
