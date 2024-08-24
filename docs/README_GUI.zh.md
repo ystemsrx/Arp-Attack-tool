@@ -25,6 +25,18 @@
 
 6. **开始攻击：** 输入期望的每秒数据包数量，然后点击“Start ARP Attack”开始操作。
 
+## 故障排查
+
+**问题**：如果你遇到以下错误信息：
+
+`Failed to scan network: Sniffing and sending packets is not available at layer2: winpcap is not installed. You may use conf.L3socket or comg.L3socket6 to access layer 3.`
+
+**解决方案**：这个错误是因为你的系统中没有安装 `WinPcap`。要解决这个问题，你需要：
+
+1. **安装 Npcap**：`Npcap` 是 `WinPcap` 的现代替代品，兼容大多数需要 `WinPcap` 的应用程序。你可以从 [Npcap 的官方网站](https://nmap.org/npcap/) 下载并安装 `Npcap`。
+
+这样可以帮助用户在遇到这个错误时知道如何进行故障排查并解决问题。
+
 ## 免责声明
 
 此工具仅用于教育目的。仅应在您拥有明确许可的网络上使用。在未授权的网络上使用是非法且不道德的。请负责任地使用，并始终将改善网络安全放在首位。
