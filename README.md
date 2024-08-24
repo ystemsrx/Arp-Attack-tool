@@ -79,10 +79,6 @@ For Linux user, please ensure you have root access to your network interface to 
 4. **Watch the chaos unfold:**
    - The script will start sending ARP packets to the targeted devices, potentially disrupting their network connections.
 
-以下是中英文的 README 文件更新内容，你可以根据需要直接复制粘贴到你的 README 中。
-
-### 英文：
-```
 ### Troubleshooting
 
 **Issue**: If you encounter the following error message:
