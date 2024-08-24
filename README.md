@@ -83,9 +83,7 @@ For Linux user, please ensure you have root access to your network interface to 
 
 **Issue**: If you encounter the following error message:
 
-```
-Failed to scan network: Sniffing and sending packets is not available at layer2: winpcap is not installed. You may use conf.L3socket or comg.L3socket6 to access layer 3.
-```
+`Failed to scan network: Sniffing and sending packets is not available at layer2: winpcap is not installed. You may use conf.L3socket or comg.L3socket6 to access layer 3.`
 
 **Solution**: This error occurs because `WinPcap` is not installed on your system. To resolve this issue, you have to:
 
