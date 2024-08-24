@@ -51,6 +51,18 @@
 - **语言切换**：在界面上切换英文和简体中文。
 - **始终在顶层复选框**：使窗口保持在其他应用程序之上。
 
+## 故障排查
+
+**问题**：如果你遇到以下错误信息：
+
+`Failed to scan network: Sniffing and sending packets is not available at layer2: winpcap is not installed. You may use conf.L3socket or comg.L3socket6 to access layer 3.`
+
+**解决方案**：这个错误是因为你的系统中没有安装 `WinPcap`。要解决这个问题，你需要：
+
+1. **安装 Npcap**：`Npcap` 是 `WinPcap` 的现代替代品，兼容大多数需要 `WinPcap` 的应用程序。你可以从 [Npcap 的官方网站](https://nmap.org/npcap/) 下载并安装 `Npcap`。
+
+这样可以帮助用户在遇到这个错误时知道如何进行故障排查并解决问题。
+
 ## 安全声明
 
 **本工具仅供教育用途。** 在没有网络所有者明确许可的情况下，未经授权使用 ARP 欺骗工具进行网络攻击是违法和不道德的。在进行任何网络攻击之前，请确保您已获得必要的许可。
